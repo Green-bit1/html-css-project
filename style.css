@@ -21,14 +21,14 @@ div.wrap {
 
 h1
 {
-    position: relative;
+    position: absolute;
     right: 600px;
     bottom: -30px;
 }
 
 h2
 {
-    position: relative;
+    position: absolute;
     right: -130px;
     bottom: 0px;
     font-size: 30px;
