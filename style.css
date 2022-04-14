@@ -63,3 +63,37 @@ h1
     top: 200px;
     transform: rotate(4deg);
 }
+
+.elu
+{
+    position: relative;
+    left: 900px;
+    bottom: -100px;
+}
+
+.ges2
+{
+    position: absolute;
+    font-size: 30px;
+    left: 100px;
+    top: 400px;
+    transform: rotate(-5deg);
+}
+
+.atr2
+{
+    position: absolute;
+    font-size: 30px;
+    left: 350px;
+    top: 300px;
+    transform: rotate(10deg);
+}
+
+.dms2
+{
+    position: absolute;
+    font-size: 30px;
+    left: 340px;
+    top: 500px;
+    transform: rotate(5deg);
+}
