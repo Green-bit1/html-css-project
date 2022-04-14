@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Nanum+Pen+Script&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Nanum Pen Script', cursive;
+}
+body
+{
+    background-image : url('http://www.zingerbugimages.com/backgrounds/white_construction_paper_seamless.jpg');
+}
+
+h1
+{
+    position: relative;
+    right: -170px;
+    bottom: -30px;
+}
+
+.pas
+{
+    position: absolute;
+    font-size: 30px;
+    left: 40px;
+    top: 120px;
+    transform: rotate(-5deg);
+}
+
+.atr
+{
+    position: absolute;
+    font-size: 30px;
+    left: 300px;
+    top: 100px;
+    transform: rotate(10deg);
+}
+
+.ges
+{
+    position: absolute;
+    font-size: 30px;
+    left: 100px;
+    top: 300px;
+    transform: rotate(2deg);
+}
+
+.bgs
+{
+    position: absolute;
+    font-size: 30px;
+    left: 400px;
+    top: 200px;
+    transform: rotate(10deg);
+}
+
+.dms
+{
+    position: absolute;
+    font-size: 30px;
+    left: 120px;
+    top: 200px;
+    transform: rotate(4deg);
+}
