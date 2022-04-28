@@ -20,8 +20,13 @@ h1 {
 
 h2 {
     color: whitesmoke;
+    font-size: 30px;
 }
 
+.about {
+    color: whitesmoke;
+    font-size: 30px;
+}
 
 .navbar {
     width: 85%;
