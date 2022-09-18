@@ -23,6 +23,13 @@ h2 {
     font-size: 30px;
 }
 
+p {
+    color: whitesmoke;
+    position: relative;
+    bottom: -1  0px;
+    font-size: 30px;
+}
+
 .about {
     color: whitesmoke;
     font-size: 30px;
