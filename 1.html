@@ -10,11 +10,31 @@
                 <h1>GreenDev</h1>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="1.html">Movie</a></li>
+                    <li><a href="1.html">Server Info</a></li>
                 </ul>
                 <div class="content">
-                    <p class="about">Top Gun: Maverick</p>
-                    <video controls src="TopGM.mp4" width="500" height="240" class="TopGM">
+                    
+                    <h2>Server Status:</h2>
+                    <p>Server is Server online: <span id="status"></span></p>
+                    
+                    
+                    <script>
+                    
+                    const api_url = 'https://api.mcstatus.io/v2/status/java/greendevserver.ddns.net'
+                    async function getMCS() {
+                                const response = await fetch(api_url);
+                                const data = await response.json();
+                                const { online } = data;
+                                console.log(data);
+
+                                document.getElementById('status').textContent = online;
+
+                            }
+
+                        
+                        getMCS()
+                            
+                    </script>
                 </div>
             </div>
         </div>
